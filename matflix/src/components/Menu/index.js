@@ -11,7 +11,7 @@ function Menu(){
             </a>
 
             <ButtonLink as="a" className='ButtonLink' href='/'>
-            Novo vídeo    
+            Novo Vídeo  
             </ButtonLink>
         </MenuWrapper>
     );

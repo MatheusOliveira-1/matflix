@@ -14,7 +14,11 @@ export const MenuWrapper = styled.nav`
 width: 100%;
 height: 94px;
 
-position: fixed;
+/* position: fixed; */
+top: 0;
+left: 0;
+padding-left: 5%;
+padding-right: 5%;
 
 display: flex;
 justify-content: space-between;
@@ -25,4 +29,9 @@ border-bottom: 2px solid var(--primary);
 `;
 
 export const ButtonLink = styled(Button)`
+color: var(--white);
+border: 1px solid var(--white);
+padding: 16px 24px;
+font-size: 16px;
+border-radius: 30px;
 `;
