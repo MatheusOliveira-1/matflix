@@ -1,22 +1,19 @@
 import React from 'react';
-import App from     '../../App';
-import Logo from '../../assets/img/Logo.png';
-import './Menu.css'
-import Button from '../Button';
+import Logo from '../../assets/img/Logo.png'
+import { ButtonLink, LogoImage, MenuWrapper } from './style';
 //import ButtonLink from './components/ButtonLink';
 
 function Menu(){
     return (
-        <nav className='Menu'>
+        <MenuWrapper className='Menu'>
             <a href='/'>
-
+            <LogoImage src="Logo" src={Logo} alt="Matflix logo" />
             </a>
-            <img className ="Logo" src={Logo} alt="Matflix logo" />
 
-            <Button as="a" className='ButtonLink' href='/'>
+            <ButtonLink as="a" className='ButtonLink' href='/'>
             Novo vídeo    
-            </Button>
-        </nav>
+            </ButtonLink>
+        </MenuWrapper>
     );
 }
 
