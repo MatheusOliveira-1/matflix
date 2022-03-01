@@ -22,10 +22,23 @@ function App() {
         videoDescription={"Confira meu GitHub!"}
       />
 
-      {/* <Carousel
-      importFirstVideo
+      <Carousel
+      ignoreFirstVideo
       category={dadosIniciais.categorias[0]}
-      /> */}
+      />
+
+      <Carousel
+      category={dadosIniciais.categorias[2]}
+      />
+
+      <Carousel
+      category={dadosIniciais.categorias[3]}
+      />
+
+      <Carousel
+      category={dadosIniciais.categorias[4]}
+      />
+
     </AppWrapper>
   );
 }
